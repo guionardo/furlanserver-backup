@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "furlanserver-backup"
+version = "0.1.0"
+description = "Rotina de automação de backup via SSH para o servidor no homelab `furlan-server`"
+authors = ["Guionardo <guionardo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
